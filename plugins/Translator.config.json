@@ -1,0 +1,36 @@
+{
+	"all": {
+		"choices": {
+			"received": {
+				"input": "auto",
+				"output": "pt"
+			},
+			"sent": {
+				"input": "auto",
+				"output": "en"
+			}
+		},
+		"engines": {
+			"backup": "----",
+			"translator": "googleapi"
+		},
+		"exceptions": {
+			"wordStart": [
+				"!"
+			]
+		},
+		"favorites": [
+			"en",
+			"es",
+			"ja",
+			"pt",
+			"zh-CN"
+		],
+		"general": {
+			"addTranslateButton": true,
+			"sendOriginalMessage": false,
+			"showOriginalMessage": false,
+			"usePerChatTranslation": true
+		}
+	}
+}
